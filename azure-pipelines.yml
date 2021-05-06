@@ -32,7 +32,10 @@ steps:
   displayName: Package
   inputs:
     command: pack
-    searchPatternPack: '**/X.PagedList.Mvc.Core.csproj;'
+    searchPatternPack: |
+      **/X.PagedList.csproj;
+      **/X.PagedList.Mvc.Core.csproj;
+      **/X.PagedList.Web.Common.csproj;
     nobuild: true
   
 - task: PublishBuildArtifacts@1
