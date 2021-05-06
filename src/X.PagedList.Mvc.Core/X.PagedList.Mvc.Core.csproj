@@ -16,6 +16,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>xpagedlist.snk</AssemblyOriginatorKeyFile>
+    <PackageId>SD_X.PagedList.Mvc.Core</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
